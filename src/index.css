@@ -1,0 +1,11 @@
+/* Import Style */
+@import "./assets/css/colorscheme.css";
+@import "./assets/css/typeface.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}

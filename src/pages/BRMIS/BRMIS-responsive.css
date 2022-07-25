@@ -1,0 +1,597 @@
+/* MEDIA QUERRIES */
+@media only screen and (max-width: 1440px) {
+  /* BARANGAY SERVICES PROMO SECTION */
+  /* BARANGAY SERVICES PROMO THUMBNAIL */
+  .barangay__services__promo__thumbnail {
+    padding: 20px 20px 20px 30px;
+  }
+  .barangay__services__promo__thumbnail {
+    max-width: calc(50% - 72px);
+    min-width: calc(50% - 72px);
+  }
+  /* BARANGAY SERVICES PROMO THUMBNAIL */
+  /* BARANGAY SERVICES PROMO SECTION */
+
+  /* BARANGAY FEATURES SECTION */
+  /* BARANGAY FEATURES HERO */
+  .brims__first__bg {
+    width: 505px;
+    height: 505px;
+  }
+  .brims__second__bg {
+    width: 325px;
+    height: 325px;
+  }
+  .brims__third__bg {
+    width: 205px;
+    height: 205px;
+  }
+  .brims__hero {
+    width: 180px;
+  }
+  /* --- feature list */
+  /* bpm */
+  .bpm__container {
+    margin-left: -195px;
+  }
+  .bpm__container .bpm__title .bpm__line__border .bpm__line {
+    width: 80px;
+  }
+  .bpm__container .bpm__title .bpm__line__border .bpm__line::after {
+    left: 64px;
+    top: 35px;
+  }
+  .bpm__container .bpm__title .bpm__line__border .bpm__line .bpm__icon {
+    position: absolute;
+    top: 13px;
+    right: -67px;
+  }
+  /* bpm */
+  /* her */
+  .her__container {
+    margin-left: 195px;
+  }
+  .her__container .her__title .her__line__border .her__line {
+    width: 80px;
+  }
+  .her__container .her__title .her__line__border .her__line::before {
+    right: 65px;
+    top: 35px;
+  }
+  /* her */
+  /* vri */
+  .vri__container {
+    margin-left: -195px;
+  }
+  .vri__container .vri__title .vri__line__border .vri__line {
+    width: 80px;
+  }
+  .vri__container .vri__title .vri__line__border .vri__line:after {
+    left: 64px;
+  }
+  .vri__container .vri__title .vri__line__border .vri__line .vri__icon img {
+    width: 65px;
+  }
+  /* vri */
+  /* sms */
+  .sms__container {
+    margin-left: 195px;
+  }
+  .sms__container .sms__title .sms__line__border .sms__line {
+    width: 80px;
+  }
+  .sms__container .sms__title .sms__line__border .sms__line::before {
+    right: 65px;
+    bottom: 35px;
+  }
+  /* sms */
+  /* dsm */
+  .dsm__container {
+    margin-left: -266px;
+  }
+  .dsm__container .dsm__title .dsm__line__border .dsm__line {
+    top: -16px;
+  }
+  /* dsm */
+
+  /* rpm */
+  .rpm__container {
+    margin-left: 268px;
+  }
+  .rpm__container .rpm__title .rpm__line__border .rpm__line {
+    top: -16px;
+  }
+  /* rpm */
+  /* dr */
+  .dr__container {
+    margin-left: -246px;
+  }
+  /* dr */
+  /* tk */
+  .tk__container {
+    margin-left: 247px;
+  }
+  /* tk */
+  /* dm */
+  .dm__container {
+    margin-left: -246px;
+  }
+  /* dm */
+  /* ehr */
+  .ehr__container {
+    margin-left: 247px;
+  }
+  /* ehr */
+  /* BARANGAY FEATURES HERO */
+  /* BARANGAY FEATURES SECTION */
+}
+
+@media only screen and (max-width: 1280px) {
+  /* BARANGAY HEADER SECTION */
+  #barangayHeaderSection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 200px 0 50px;
+  }
+  /* BARANGAY HEADER CONTENT */
+  .barangay__header_content {
+    position: relative;
+    max-width: calc(50% - 40px);
+    min-width: calc(50% - 40px);
+    padding: 0 20px;
+  }
+  /* BARANGAY HEADER CONTENT */
+  /* BARANGAY HEADER SECTION */
+
+  /* BARANGAY SERVICES PROMO SECTION */
+  .barangay__services__promo__container {
+    padding: 0 20px;
+  }
+
+  /* BARANGAY FORMS SECTION */
+  /* BARANGAY FORMS CONTENT */
+  .barangay__form_content {
+    position: relative;
+    max-width: calc(40% - 40px);
+    min-width: calc(40% - 40px);
+    padding: 0 20px;
+  }
+  /* BARANGAY FORMS CONTENT */
+  /* BARANGAY FORMS CONTAINER */
+  .barangay__form__container {
+    position: relative;
+    max-width: calc(60% - 40px);
+    min-width: calc(60% - 40px);
+    padding: 0 20px;
+  }
+  /* BARANGAY FORMS CONTAINER */
+  /* BARANGAY FORMS SECTION */
+
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+  /* BARANGAY CLIENT TESTIMONIAL CONTENT */
+  .barangay__testi__content {
+    position: relative;
+    max-width: calc(40% - 20px);
+    min-width: calc(40% - 20px);
+    padding: 0 20px;
+  }
+  /* BARANGAY CLIENT TESTIMONIAL CONTENT */
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+}
+
+@media only screen and (max-width: 1200px) {
+  /* BARANGAY FEATURES SECTION */
+  .br__title__f {
+    display: block;
+  }
+  /* BARANGAY FEATURES HERO */
+  .brims__first__bg {
+    width: 445px;
+    height: 445px;
+  }
+  .brims__second__bg {
+    width: 265px;
+    height: 265px;
+  }
+  .brims__third__bg {
+    width: 145px;
+    height: 145px;
+  }
+  .brims__hero {
+    width: 120px;
+  }
+  /* --- feature list */
+  /* bpm */
+  .bpm__container {
+    top: -9px;
+  }
+  .bpm__container .bpm__title .bpm__line__border .bpm__line {
+    top: -16px;
+  }
+  /* bpm */
+  /* her */
+  .her__container {
+    margin-left: 195px;
+    top: -9px;
+  }
+  .her__container .her__title .her__line__border .her__line {
+    top: -16px;
+  }
+  /* her */
+  /* vri */
+  .vri__container {
+    bottom: -9px;
+  }
+  .vri__container .vri__title .vri__line__border .vri__line {
+    top: -16px;
+  }
+  /* vri */
+  /* sms */
+  .sms__container {
+    bottom: -9px;
+  }
+  .sms__container .sms__title .sms__line__border .sms__line {
+    top: -16px;
+  }
+
+  /* sms */
+  /* dsm */
+  .dsm__container {
+    margin-left: -236px;
+  }
+  .dsm__container .dsm__title .dsm__line__border .dsm__line {
+    top: -16px;
+  }
+  /* dsm */
+
+  /* rpm */
+  .rpm__container {
+    margin-left: 238px;
+  }
+  .rpm__container .rpm__title .rpm__line__border .rpm__line {
+    top: -16px;
+  }
+  /* rpm */
+  /* dr */
+  .dr__container {
+    margin-left: -224px;
+  }
+  .dr__container .dr__title .dr__line__border .dr__line {
+    top: -16px;
+  }
+  /* dr */
+  /* tk */
+  .tk__container {
+    margin-left: 226px;
+  }
+  .tk__container .tk__title .tk__line__border .tk__line {
+    top: -16px;
+  }
+  /* tk */
+  /* dm */
+  .dm__container {
+    margin-left: -228px;
+  }
+  .dm__container .dm__title .dm__line__border .dm__line {
+    top: -16px;
+  }
+  /* dm */
+  /* ehr */
+  .ehr__container {
+    margin-left: 228px;
+  }
+  .ehr__container .ehr__title .ehr__line__border .ehr__line {
+    top: -16px;
+  }
+  /* ehr */
+  /* BARANGAY FEATURES HERO */
+  /* BARANGAY FEATURES SECTION */
+}
+
+@media only screen and (max-width: 1055px) {
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+  /* BARANGAY CLIENT TESTIMONIAL CONTENT */
+  .barangay__testi__content {
+    position: relative;
+    max-width: calc(60% - 20px);
+    min-width: calc(60% - 20px);
+    padding: 0 20px;
+  }
+  .test__br__dn {
+    display: none;
+  }
+  /* BARANGAY CLIENT TESTIMONIAL CONTENT */
+
+  /* BARANGAY CLIENT TESTIMONIAL LIST */
+  .barangay__testi__list {
+    position: relative;
+    max-width: 108%;
+    min-width: 108%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  /* BARANGAY CLIENT TESTIMONIAL LIST */
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+}
+
+@media only screen and (max-width: 1000px) {
+  /* BARANGAY HEADER SECTION */
+  /* BARANGAY HEADER CONTENT */
+  .barangay__header_content {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+  /* BARANGAY HEADER CONTENT */
+  /* BARANGAY HEADER HERO */
+  .barangay__header__hero {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .barangay__header__hero img {
+    width: 450px;
+    margin-top: 50px;
+  }
+  /* BARANGAY HEADER HERO */
+  /* BARANGAY HEADER SECTION */
+
+  /* BARANGAY SERVICES PROMO THUMBNAIL */
+  .barangay__services__promo__thumbnail {
+    max-width: calc(100% - 53px);
+    min-width: calc(100% - 53px);
+  }
+  .barangay__services__promo__thumbnail:first-child {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .barangay__services__promo__thumbnail:last-child {
+    margin-left: 0px;
+  }
+  /* BARANGAY SERVICES PROMO THUMBNAIL */
+  /* BARANGAY SERVICES PROMO SECTION */
+
+  /* BARANGAY FEATURES SECTION */
+  /* BARANGAY FEATURES HERO */
+  .barangay__features__hero {
+    display: none;
+  }
+  .barangay__features__hero__smallview {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .barangay__features__smallview__ml {
+    margin-left: 10px;
+  }
+  .barangay__features__smallview__mr {
+    margin-right: 10px;
+  }
+  .barangay__features__smallview {
+    position: relative;
+    width: calc(50% - 45px);
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    background: hsla(0, 0%, 100%, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 100%, 0.18);
+    transition: 0.7s;
+    margin-bottom: 20px;
+  }
+  .barangay__features__smallview:hover {
+    transform: scale(1.03);
+    border: 1px solid #3680f7;
+  }
+  .barangay__features__smallview__icon
+    .barangay__features__smallview__icon__her {
+    width: 70px;
+  }
+  .baramgay__features__smallview__title h3 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  /* BARANGAY FEATURES HERO */
+  /* BARANGAY FEATURES SECTION */
+
+  /* BARANGAY FORMS SECTION */
+  /* BARANGAY FORMS CONTENT */
+  .barangay__form_content {
+    position: relative;
+    max-width: calc(60% - 40px);
+    min-width: calc(60% - 40px);
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  /* BARANGAY FORMS CONTENT */
+  /* BARANGAY FORMS CONTAINER */
+  .barangay__form__container {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+  /* BARANGAY FORMS CONTAINER */
+  /* BARANGAY FORMS SECTION */
+
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+  #barangayTestiSection {
+    padding: 50px 0 80px;
+  }
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+}
+
+@media only screen and (max-width: 600px) {
+  /* BARANGAY HEADER SECTION */
+  #barangayHeaderSection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 50px;
+  }
+  .barangay__header_content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0px;
+  }
+  /* BARANGAY HEADER HERO */
+  .barangay__header__hero img {
+    width: 330px;
+    margin-top: 50px;
+  }
+  /* BARANGAY HEADER HERO */
+  /* BARANGAY HEADER SECTION */
+
+  /* BARANGAY SERVICES PROMO SECTION */
+  .barangay__services__promo__thumbnail {
+    display: block;
+  }
+  .barangay__services__promo__thumbnail__br {
+    display: none;
+  }
+  .barangay__services__promo__thumbnail__title::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: rgba(65, 65, 65, 0.3);
+    top: 30px;
+    left: 0;
+  }
+  .barangay__services__promo__thumbnail__desc {
+    position: relative;
+    width: calc(100% - 0px);
+    margin-top: 15px;
+  }
+  .barangay__services__promo__container {
+    padding: 0;
+  }
+  /* BARANGAY SERVICES PROMO SECTION */
+
+  /* BARANGAY FEATURES SECTION */
+  .bfs__br {
+    display: none;
+  }
+  .barangay__features__smallview {
+    position: relative;
+    width: calc(100% - 33px);
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    background: hsla(0, 0%, 100%, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 100%, 0.18);
+    transition: 0.7s;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .barangay__features__hero__smallview {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0px;
+  }
+  /* BARANGAY FEATURES SECTION */
+
+  /* BARANGAY FORMS SECTION */
+  .barangay__form_content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .input__size__frame__barangay {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: auto;
+    margin: 0;
+  }
+  .eula {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: auto;
+  }
+  .brmis__checkbox {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: auto;
+    margin-top: 20px;
+  }
+  .barangay__form__container {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0px;
+  }
+  /* BARANGAY FORMS SECTION */
+
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+  .barangay__testi__content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0px;
+  }
+  .barangay__testi__list {
+    position: relative;
+    max-width: 108%;
+    min-width: 108%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  /* BARANGAY CLIENT TESTIMONIAL SECTION */
+}
+@media only screen and (max-width: 375px) {
+  .barangay__header__hero img {
+    width: 280px;
+    margin-top: 50px;
+  }
+  .barangay__testi__thumbnail .barangay__testi__message {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 40px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  .barangay__testi__thumbnail .barangay__testi__avatar .bt__avatar {
+    position: absolute;
+    top: -20px;
+    width: 50px;
+    height: 50px;
+    background: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+  }
+  .barangay__testi__thumbnail .barangay__testi__avatar .bt__info {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 5px;
+  }
+}
+/* MEDIA QUERRIES */

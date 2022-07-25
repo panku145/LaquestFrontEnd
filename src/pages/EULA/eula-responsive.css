@@ -1,0 +1,80 @@
+/* MEDIA QUERRIES */
+@media only screen and (max-width: 1550px) {
+  .eula__content__container {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eula__list {
+    padding: 30px 20px;
+  }
+  .eula__content__container {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eula__content__container {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .eula__navlist__container {
+    position: relative;
+    width: calc(30% - 20px);
+    height: auto;
+    padding: 0 0 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .eula__navlist__container {
+    display: none;
+  }
+
+  .eula__content__container {
+    position: relative;
+    width: calc(100% - 80px);
+    height: auto;
+    padding: 0 40px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eula__header__container {
+    position: relative;
+    width: 100%;
+    padding: 120px 20px 30px;
+  }
+  #eulaSection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px 0 50px;
+  }
+  .eula__content__container {
+    position: relative;
+    width: calc(100% - 40px);
+    height: auto;
+    padding: 0 20px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .eula__header__container {
+    position: relative;
+    width: 100%;
+    padding: 120px 0px 30px;
+  }
+  .eula__content__container {
+    position: relative;
+    width: calc(100% - 0px);
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+}

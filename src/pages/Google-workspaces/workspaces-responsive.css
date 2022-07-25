@@ -1,0 +1,492 @@
+/* MEDIA QUERRIES */
+@media only screen and (max-width: 1495px) {
+  /* CLOUD SECURITY SECTION */
+  /* CLOUD SECURITY CONTENT */
+  .cloudsecurity__content {
+    max-width: calc(60% - 20px);
+    min-width: calc(60% - 20px);
+    height: 100%;
+    padding-left: 20px;
+  }
+  /* CLOUD SECURITY CONTENT */
+  /* CLOUD SECURITY SECTION */
+}
+@media only screen and (max-width: 1440px) {
+  /* PRODUCT STORY */
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container .ps__tagline {
+    left: -105px;
+  }
+  /* PRODUCT STORY CONTENT */
+  /* PRODUCT STORY */
+}
+
+@media only screen and (max-width: 1280px) {
+  /* HEADER SECTION */
+  /* HEADER CONTENT */
+  .gheader__content {
+    max-width: calc(60% - 40px);
+    min-width: calc(60% - 40px);
+    height: 100%;
+    padding: 0 20px;
+  }
+  /* HEADER CONTENT */
+  /* HEADER HERO */
+  .gheader__hero {
+    position: relative;
+    max-width: calc(40% - 0px);
+    min-width: calc(40% - 0px);
+    padding: 0;
+  }
+  /* HEADER SECTION */
+
+  /* FEATURE SECTION */
+  /* FEATURE HERO */
+  .feature__hero img {
+    width: 100%;
+  }
+  /* FEATURE HERO */
+  /* FEATURE SECTION */
+
+  /* GOOGLE DESC SECTION */
+  .googleworkspace__desc__content {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+  }
+  /* GOOGLE DESC THUMBNAIL */
+  .googleworkspace__desc__thumbnail {
+    position: relative;
+    padding: 30px 20px 20px;
+  }
+  /* GOOGLE DESC THUMBNAIL */
+  /* GOOGLE DESC SECTION */
+
+  /* PRODUCT STORY */
+  .productstory__container {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+  .google__hero__container .ps__tagline {
+    left: -95px;
+  }
+  /* PRODUCT STORY */
+
+  /* ADD-ONS SECTION */
+  /* ADD-ONS CONTENT */
+  .addons__content {
+    position: relative;
+    max-width: calc(40% - 40px);
+    min-width: calc(40% - 40px);
+    height: 100%;
+    padding: 0 20px;
+  }
+  /* ADD-ONS CONTENT */
+  /* ADD-ONS SECTION */
+}
+
+@media only screen and (max-width: 1073px) {
+  /* PRODUCT STORY */
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container .ps__tagline {
+    left: -87px;
+  }
+  /* PRODUCT STORY CONTENT */
+  /* PRODUCT STORY */
+}
+
+@media only screen and (max-width: 1024px) {
+  /* FEATURE SECTION */
+  /* FEATURE CONTENT */
+  .feature__list li .googleMeet {
+    width: 30px;
+  }
+  .feature__list li .googleDrives {
+    width: 28px;
+  }
+  .feature__list li .googleCalendar {
+    width: 23px;
+  }
+  .feature__list li .googleGmail {
+    width: 28px;
+  }
+  .feature__list li .googleDocs {
+    width: 20px;
+  }
+  .feature__list li .googleDocu,
+  .feature__list li .googleSheets,
+  .feature__list li .googleSlides,
+  .feature__list li .googleForms {
+    width: 20px;
+  }
+  /* FEATURE CONTENT */
+  /* FEATURE SECTION */
+
+  /* PRODUCT STORY */
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container {
+    max-width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    height: 267px;
+  }
+  .product__feature__list {
+    max-width: calc(50% - 10px);
+    min-width: calc(50% - 10px);
+  }
+  .spam__filter__pdf {
+    max-width: calc(100% - 70px);
+    min-width: calc(100% - 70px);
+  }
+  /* PRODUCT STORY CONTENT */
+  /* PRODUCT STORY */
+}
+
+@media only screen and (max-width: 768px) {
+  /* HEADER SECTION */
+  /* HEADER HERO */
+  .circle__grid__top {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    width: 150px;
+    z-index: -1;
+  }
+  .circle__grid__bottom {
+    position: absolute;
+    bottom: -45px;
+    right: -13px;
+    width: 150px;
+    z-index: -1;
+  }
+  /* HEADER HERO */
+  /* HEADER SECTION */
+
+  /* GOOGLE DESC SECTION */
+  /* GOOGLE DESC THUMBNAIL */
+  .googleworkspace__desc__content {
+    flex-wrap: wrap;
+  }
+  .googleworkspace__desc__thumbnail {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  /* GOOGLE DESC THUMBNAIL */
+  /* GOOGLE DESC SECTION */
+
+  /* CLOUD SECURITY SECTION */
+  .security__container {
+    width: 100%;
+  }
+  /* CLOUD SECURITY CONTENT */
+  .cloudsecurity__content {
+    max-width: calc(50% - 40px);
+    min-width: calc(50% - 40px);
+    padding: 0 20px;
+  }
+  /* CLOUD SECURITY CONTENT */
+  .cloudsecurity__hero {
+    max-width: calc(50% - 0px);
+    min-width: calc(50% - 0px);
+    height: 100%;
+    padding-right: 0px;
+  }
+  /* CLOUD SECURITY SECTION */
+
+  /* PRODUCT STORY */
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container {
+    max-width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    height: 197px;
+  }
+  /* PRODUCT STORY CONTENT */
+}
+
+@media only screen and (max-width: 700px) {
+  /* HEADER SECTION */
+  #gheaderSection {
+    padding: 200px 0 50px;
+  }
+  /* HEADER CONTENT */
+  .gheader__content {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    height: 100%;
+    padding: 0 20px;
+  }
+  /* HEADER CONTENT */
+
+  /* HEADER HERO */
+  .gheader__hero {
+    position: relative;
+    max-width: calc(100% - 40x);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .gworkspace__container {
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+  }
+  .video-play-button:before,
+  .video-play-button:after {
+    width: 35px;
+    height: 35px;
+  }
+  .video-play-button span {
+    font-size: 13px;
+  }
+  /* HEADER HERO */
+  /* HEADER SECTION */
+
+  /* FEATURE SECTION */
+  #featureSection {
+    padding: 30px 0;
+  }
+  /* FEATURE CONTENT */
+  .feature__content {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+  /* FEATURE CONTENT */
+
+  /* FEATURE HERO */
+  .feature__hero {
+    display: none;
+  }
+  /* FEATURE HERO */
+  /* FEATURE SECTION */
+
+  /* GOOGLE DESC SECTION */
+  #googleDescSection {
+    padding: 30px 0;
+  }
+  /* GOOGLE DESC CONTENT */
+  .googleworkspace__desc__thumbnail {
+    padding: 20px 20px;
+  }
+  .googleworkspace__desc__thumbnail:last-child {
+    margin: 0;
+  }
+  /* GOOGLE DESC CONTENT */
+  /* GOOGLE DESC SECTION */
+
+  /* CLOUD SECURITY SECTION */
+  #cloudsecurityeSection {
+    padding: 30px 0;
+  }
+  /* CLOUD SECURITY CONTENT */
+  .cloudsecurity__content {
+    max-width: calc(60% - 40px);
+    min-width: calc(60% - 40px);
+    padding: 0 20px;
+  }
+  /* CLOUD SECURITY CONTENT */
+
+  /* CLOUD SECURITY HERO */
+  .cloudsecurity__hero {
+    max-width: calc(40% - 0px);
+    min-width: calc(40% - 0px);
+  }
+  /* CLOUD SECURITY HERO */
+  /* CLOUD SECURITY SECTION */
+
+  /* PRODUCT STORY */
+  #productstorySection {
+    padding: 30px 0;
+  }
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container img {
+    height: auto;
+  }
+  .product__feature__list {
+    max-width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+  }
+  .product__feature__list .pfeature__thumbnail {
+    padding: 30px 30px 20px;
+  }
+  .spam__filter__pdf {
+    margin-bottom: 0;
+  }
+  .spam__filter__pdf .pdf__hero {
+    display: none;
+  }
+  .spam__filter__pdf .pdf_content {
+    position: relative;
+    max-width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    padding-right: 5px;
+  }
+  /* PRODUCT STORY CONTENT */
+  /* PRODUCT STORY */
+
+  /* ADD-ONS CONTENT */
+  #addonsSection {
+    padding: 30px 0 100px;
+  }
+  .addons__content {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    margin-bottom: 30px;
+  }
+  .addons__list {
+    position: relative;
+    max-width: calc(109.5% - 20px);
+    min-width: calc(109.5% - 20px);
+    padding-left: 20px;
+  }
+  /* ADD-ONS CONTENT */
+}
+
+@media only screen and (max-width: 650px) {
+  .google__hero__container .ps__tagline {
+    left: -78px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /* HEADER SECTION */
+  #gheaderSection {
+    padding: 150px 0 50px;
+  }
+  /* HEADER CONTENT */
+  .gheader__content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+  }
+  /* HEADER CONTENT */
+
+  /* HEADER HERO */
+  .gheader__hero {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+  }
+  .gworkspace__container {
+    position: relative;
+    width: 230px;
+    margin-top: 50px;
+  }
+  .circle__grid__top {
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    width: 120px;
+    z-index: -1;
+  }
+  .circle__grid__bottom {
+    position: absolute;
+    bottom: -38px;
+    right: -40px;
+    width: 100px;
+    z-index: -1;
+  }
+  /* HEADER HERO */
+  /* HEADER SECTION */
+
+  /* FEATURE SECTION */
+  /* FEATURE CONTENT */
+  .feature__content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+  }
+  /* FEATURE CONTENT */
+  /* FEATURE SECTION */
+
+  /* GOOGLE DESC SECTION */
+  /* GOOGLE DESC CONTENT */
+  .googleworkspace__desc__content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: 100%;
+    padding: 0;
+  }
+  /* GOOGLE DESC CONTENT */
+  /* GOOGLE DESC SECTION */
+
+  /* CLOUD SECURITY SECTION */
+  /* CLOUD SECURITY CONTENT */
+  .security__container {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cloudsecurity__content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+    text-align: center;
+    order: 2;
+  }
+  .cloudsecurity__hero {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cloudsecurity__hero img {
+    width: 250px;
+  }
+  /* CLOUD SECURITY CONTENT */
+  /* CLOUD SECURITY SECTION */
+
+  /* PRODUCT STORY */
+  .productstory__container {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+  }
+  /* PRODUCT STORY CONTENT */
+  .google__hero__container .ps__tagline {
+    left: -77px;
+  }
+  .google__hero__container {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: 180px;
+    margin: 5px 0;
+  }
+  .product__feature__list {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    margin: 2px 0;
+  }
+  .product__feature__list .pfeature__thumbnail {
+    padding: 30px 20px 20px;
+  }
+  .spam__filter__pdf {
+    max-width: calc(100% - 42px);
+    min-width: calc(100% - 42px);
+    margin: 2px 0;
+    padding: 30px 20px 20px;
+  }
+  /* PRODUCT STORY CONTENT */
+  /* PRODUCT STORY */
+
+  /* ADD-ONS CONTENT */
+  #addonsSection {
+    padding: 30px 0 50px;
+  }
+  .addons__content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .addons__list {
+    position: relative;
+    max-width: calc(109.5% - 0px);
+    min-width: calc(109.5% - 00px);
+    padding-left: 0px;
+  }
+  /* ADD-ONS CONTENT */
+}
+/* MEDIA QUERRIES */

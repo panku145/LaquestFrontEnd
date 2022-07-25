@@ -1,0 +1,207 @@
+/* CURSOR */
+.cursor {
+  position: absolute;
+  background: #ffffff;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  z-index: 9999;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+    0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  user-select: none;
+  pointer-events: none;
+  transform: scale(0.8);
+}
+
+.cursor::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-image: url("../../assets/images/hover-curser.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+.cursor.active {
+  opacity: 1;
+  transform: scale(12);
+}
+
+.cursor.active::before {
+  opacity: 1;
+}
+
+.cursor-follower {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  z-index: 9999;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+    0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  user-select: none;
+  pointer-events: none;
+  transform: translate(4px, 4px);
+}
+
+.cursor-follower.active {
+  opacity: 0.3;
+  transform: scale(0);
+}
+/* CURSOR */
+.section__container__eula {
+  position: relative;
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+/* EULA HEADER */
+#eulaHeaderSection {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url(../../assets/images/eula.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#eulaHeaderSection::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+#eulaHeaderSection::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 128, 247, 0.4) 0%,
+    rgba(240, 173, 71, 0.4) 100%
+  );
+}
+.eula__header__container {
+  position: relative;
+  width: 100%;
+  padding: 150px 40px 80px;
+}
+.eula__header__container h1 {
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  background: linear-gradient(90deg, #3680f7, #f0ad47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.eula__header__container h2 {
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 1px;
+  /* display: inline-block;
+  background: linear-gradient(90deg, #3680f7, #f0ad47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+/* EULA HEADER */
+
+/* EULA CONTENT */
+#eulaSection {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 30px 0 50px;
+}
+/* EULA CONTENT LIST*/
+.eula__navlist__container {
+  position: relative;
+  width: calc(30% - 40px);
+  height: auto;
+  padding: 0px 0px 0px 40px;
+}
+
+.eula__list {
+  list-style: none;
+  width: 300px;
+  max-height: 90vh;
+  overflow: auto;
+  padding: 30px 40px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: 0.8s ease-in-out;
+}
+.eula__list li {
+  margin-bottom: 10px;
+}
+.eula__list li a {
+  text-decoration: none;
+  color: #212121;
+  font-family: Gilroy_extrabold;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  transition: 0.8s;
+  font-size: 18px;
+}
+.eula__list li a .eula__page__icon {
+  font-size: 12px;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+.eula__list li a:hover {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 128, 247, 1) 0%,
+    rgba(240, 173, 71, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+/* EULA CONTENT LIST*/
+
+/* EULA CONTENT SECTION*/
+.eula__content__container {
+  position: relative;
+  width: calc(70% - 80px);
+  height: auto;
+  padding: 20px 20px 20px 60px;
+}
+.eula__content__container h3 {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.eula__content__container p {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+/* EULA CONTENT SECTION*/
+/* EULA CONTENT */

@@ -1,0 +1,52 @@
+/* COLOR */
+.primary_c {
+  color: #f0ad47;
+}
+
+.secondary_c {
+  color: #3680f7;
+}
+
+.dark_c,
+p {
+  color: #212121;
+}
+
+.light_c {
+  color: #707070;
+}
+
+.white_c {
+  color: #ffffff;
+}
+
+/* BACKGROUN COLOR */
+.primary_bg {
+  background: #f0ad47;
+}
+
+.secondary_bg,
+.menu__bar,
+.close__menu {
+  background: transparent;
+  /* background: #3680f7; */
+}
+
+.dark_bg {
+  background: #1a1a1a;
+}
+
+.light_bg {
+  background: #707070;
+}
+
+.white_bg,
+.header__title__separator {
+  background: #ffffff;
+  background: #545454;
+}
+
+/* .wrapper {
+  
+  background: url(../../assets/images/wallpaper_bg.jpg);
+} */

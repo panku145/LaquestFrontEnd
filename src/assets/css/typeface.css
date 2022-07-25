@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Gilroy_extrabold;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Gilroy_light;
+  src: url(../fonts/Gilroy-Light.otf);
+}
+
+/* FONT FAMILY */
+.ff__gilroy__e {
+  /* font-family: Gilroy_extrabold; */
+  font-family: "Poppins", sans-serif;
+}
+p,
+.ff__gilroy__l {
+  font-family: Gilroy_light;
+}
+
+/* FONT SIZE */
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+
+body,
+p {
+  font-size: 18px;
+}
+
+/* TYPEFACE CUSTOM */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* RESPONSIVE MEDIA QUERY */
+@media only screen and (max-width: 1440px) {
+  /* FONT SIZE */
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+
+  body,
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* FONT SIZE */
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1073px) {
+  /* FONT SIZE */
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* FONT SIZE */
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+}

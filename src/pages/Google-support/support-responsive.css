@@ -1,0 +1,488 @@
+/* MEDIA QUERRIES */
+@media only screen and (max-width: 1440px) {
+  /* SUPPORT HEADER SECTION  */
+  /* SUPPORT HEADER HERO  */
+  .gridcircle__top {
+    top: -44px;
+    width: 200px;
+  }
+  .gridcircle__bottom {
+    bottom: -50px;
+    right: -15px;
+    width: 200px;
+  }
+  /* SUPPORT HEADER HERO  */
+  /* SUPPORT HEADER SECTION  */
+
+  /* CONTACT DETAILS SECTION */
+  /* CONTACT DETAILS THUMBNAIL */
+  .google__brand img {
+    width: 230px;
+  }
+  /* CONTACT DETAILS THUMBNAIL */
+  /* CONTACT DETAILS SECTION */
+}
+
+@media only screen and (max-width: 1280px) {
+  /* SUPPORT HEADER SECTION  */
+  #supportHeaderSection {
+    padding: 250px 0 50px;
+  }
+  /* SUPPORT HEADER CONTENT  */
+  .support__header_content {
+    max-width: calc(50% - 40px);
+    min-width: calc(50% - 40px);
+    height: 100%;
+    padding: 0 20px;
+  }
+  .support__tagline {
+    margin-bottom: 30px;
+  }
+  /* SUPPORT HEADER HERO  */
+  .support__header_hero {
+    position: relative;
+    max-width: calc(50% - 0px);
+    min-width: calc(50% - 0px);
+    height: 100%;
+    padding: 0;
+  }
+  /* SUPPORT HEADER HERO  */
+  /* SUPPORT HEADER CONTENT  */
+  /* SUPPORT HEADER SECTION  */
+
+  /* CONTACT DETAILS SECTION */
+  #supportcontactSection {
+    padding: 30px 0;
+  }
+  /* CONTACT DETAILS THUMBNAIL */
+  .support__contact__content {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+  .support__contact__thumbnail {
+    max-width: calc(33.33% - 62px);
+    min-width: calc(33.33% - 62px);
+    padding: 20px;
+  }
+  /* CONTACT DETAILS THUMBNAIL */
+  /* CONTACT DETAILS SECTION */
+
+  #gworkspaceFeatureSection {
+    padding: 30px 0 80px;
+  }
+
+  /* SUPPORT FORM SECTION */
+  /* SUPPORT FORM FORM */
+  .support__form {
+    position: relative;
+    max-width: calc(60% - 80px);
+    min-width: calc(60% - 80px);
+    padding: 0 60px 0 20px;
+  }
+  .input__size__frame {
+    position: relative;
+    max-width: calc(50% - 30px);
+    min-width: calc(50% - 30px);
+    height: auto;
+    margin: 0 15px;
+  }
+  .form__field__mr__1280 {
+    margin-right: 0;
+  }
+  .form__field__ml__1280 {
+    margin-left: 0;
+  }
+  .form__field__mr__w1280 {
+    margin-right: 15px;
+  }
+  .form__field__ml__w1280 {
+    margin-left: 15px;
+  }
+  /* SUPPORT FORM FORM */
+  /* SUPPORT FORM SECTION */
+
+  /* GOOGLE PARTNER SECTION */
+  /* GOOGLE PARTNER CONTENT */
+  .googlepartner__content {
+    position: relative;
+    max-width: calc(60% - 40px);
+    min-width: calc(60% - 40px);
+    padding: 0 20px;
+  }
+  /* GOOGLE PARTNER CONTENT */
+  /* GOOGLE PARTNER SECTION */
+  .wsf__nav {
+    width: calc(33% - 20px);
+    padding: 0 0 0 20px;
+  }
+  .content__container__wsf {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1178px) {
+  /* CONTACT DETAILS SECTION */
+  /* CONTACT DETAILS THUMBNAIL */
+  .br__contact__info {
+    display: block;
+  }
+  .google__brand img {
+    width: 180px;
+  }
+  /* CONTACT DETAILS THUMBNAIL */
+  /* CONTACT DETAILS SECTION */
+}
+
+@media only screen and (max-width: 1142px) {
+  /* SUPPORT HEADER SECTION  */
+  /* SUPPORT HEADER CONTENT  */
+  .br__hide {
+    display: none;
+  }
+  /* SUPPORT HEADER CONTENT  */
+  /* SUPPORT HEADER SECTION  */
+}
+
+@media only screen and (max-width: 1056px) {
+  .content__container__wsf {
+    width: calc(62% - 66px);
+    padding: 30px 20px 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* SUPPORT HEADER SECTION  */
+  /* SUPPORT HEADER CONTENT  */
+  .support__contact__thumbnail {
+    max-width: calc(50% - 62px);
+    min-width: calc(50% - 62px);
+    padding: 20px;
+  }
+  .br__contact__info {
+    display: none;
+  }
+  /* SUPPORT HEADER CONTENT  */
+  /* SUPPORT HEADER SECTION  */
+
+  /* SUPPORT FORM SECTION */
+  /* SUPPORT FORM FORM */
+  .input__size__frame {
+    position: relative;
+    max-width: calc(100% - 30px);
+    min-width: calc(100% - 30px);
+    height: auto;
+    margin: 0 15px;
+  }
+  .m__none {
+    margin: 0;
+  }
+  /* SUPPORT FORM FORM */
+  /* SUPPORT FORM SECTION */
+}
+
+@media only screen and (max-width: 900px) {
+  /* CONTACT DETAILS SECTION */
+  /* SUPPORT FORM CONTENT */
+  .support__contact__thumbnail {
+    max-width: calc(50% - 63px);
+    min-width: calc(50% - 63px);
+    padding: 20px;
+  }
+  /* SUPPORT FORM CONTENT */
+  /* CONTACT DETAILS SECTION */
+
+  /* SUPPORT FORM FORM */
+  .flex__wrap {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .support__form {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+    order: 2;
+  }
+  .input__size__frame {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: auto;
+    margin: 0;
+  }
+  .support__form::after {
+    display: none;
+  }
+  .support__form__content {
+    position: relative;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  .input__size__frame__textarea {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: auto;
+    margin: 0;
+  }
+  .submit__btn {
+    margin-right: 0px;
+  }
+  /* SUPPORT FORM FORM */
+  .content__container__wsf {
+    margin: 0 0 0 20px;
+    width: calc(62% - 50px);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* GOOGLE PARTNER SECTION */
+  .googlepartner__content {
+    position: relative;
+    max-width: calc(80% - 40px);
+    min-width: calc(80% - 40px);
+    padding: 0 20px;
+  }
+  /* GOOGLE PARTNER CONTENT */
+  #googlepartnerSection {
+    background-position: left center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+  .gp__hide {
+    display: none;
+  }
+  /* GOOGLE PARTNER CONTENT */
+  /* GOOGLE PARTNER SECTION */
+
+  /* WORKSPACE FEATURE SECTION */
+  /* WORKSPACE FEATURE LIST */
+  .gfeature__content {
+    display: none;
+  }
+  .gfeature__carousel_list {
+    position: relative;
+    max-width: calc(110.5% - 20px);
+    min-width: calc(110.5% - 20px);
+    padding-left: 20px;
+  }
+  /* WORKSPACE FEATURE LIST */
+  /* WORKSPACE FEATURE SECTION */
+}
+
+@media only screen and (max-width: 768px) {
+  .content__container__wsf {
+    min-height: 378px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* SUPPORT HEADER SECTION  */
+  #supportHeaderSection {
+    padding: 200px 0 50px;
+  }
+  /* SUPPORT HEADER CONTENT  */
+  .support__header_content {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    height: 100%;
+    padding: 0 20px;
+  }
+  /* SUPPORT HEADER CONTENT  */
+  /* SUPPORT HEADER HERO  */
+  .support__header_hero {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    display: flex;
+    justify-content: center;
+  }
+  .support__header__hero__mv {
+    position: relative;
+    margin-top: 50px;
+    width: 350px;
+  }
+  .gridcircle__top {
+    top: -27px;
+    left: -27px;
+    width: 130px;
+  }
+  .gridcircle__bottom {
+    bottom: -34px;
+    right: -27px;
+    width: 130px;
+  }
+  /* SUPPORT HEADER HERO  */
+  /* SUPPORT HEADER SECTION  */
+
+  /* GOOGLE PARTNER SECTION */
+  /* GOOGLE PARTNER CONTENT */
+  .googlepartner__content {
+    position: relative;
+    max-width: calc(90% - 40px);
+    min-width: calc(90% - 40px);
+    padding: 0 20px;
+  }
+  /* GOOGLE PARTNER CONTENT */
+  /* GOOGLE PARTNER SECTION */
+}
+
+@media only screen and (max-width: 670px) {
+  .support__contact__thumbnail {
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    padding: 20px;
+  }
+  .wsf__nav {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+  .content__container__wsf {
+    margin-top: 10px;
+    padding: 20px;
+    width: calc(100% - 80px);
+    min-height: auto;
+  }
+  .wsf__nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .wsf__nav__list li {
+    width: calc(50% - 35px);
+    padding: 10px 15px;
+  }
+  .wsf__nav__list li:last-child {
+    margin-bottom: 10px;
+  }
+  .wsf__nav__list .li--mr {
+    margin-right: 10px;
+  }
+  .wsf__nav__list li.active::before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* SUPPORT HEADER SECTION  */
+
+  #supportHeaderSection {
+    padding: 150px 0 50px;
+  }
+  /* SUPPORT HEADER CONTENT */
+  .support__header_content {
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    height: 100%;
+    padding: 0;
+  }
+  /* SUPPORT HEADER CONTENT */
+  /* SUPPORT HEADER HERO */
+  .support__header__hero__mv {
+    position: relative;
+    margin-top: 50px;
+    width: 270px;
+  }
+  .gridcircle__top {
+    top: -20px;
+    left: -20px;
+    width: 130px;
+  }
+  .gridcircle__bottom {
+    bottom: -25px;
+    right: -40px;
+    width: 130px;
+  }
+  /* SUPPORT HEADER HERO */
+  /* SUPPORT HEADER SECTION  */
+
+  /* CONTACT DETAILS SECTION */
+  /* CONTACT DETAILS THUMBNAIL */
+  .support__contact__content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    margin: 0;
+  }
+  /* CONTACT DETAILS THUMBNAIL */
+  /* CONTACT DETAILS SECTION */
+
+  /* WORKSPACE FEATURE SECTION */
+  /* WORKSPACE FEATURE LIST */
+  .gfeature__carousel_list {
+    position: relative;
+    max-width: calc(110.5% - 0px);
+    min-width: calc(110.5% - 0px);
+    padding-left: 0px;
+  }
+  /* WORKSPACE FEATURE LIST */
+  /* WORKSPACE FEATURE SECTION */
+
+  /* SUPPORT FORM FORM */
+  .support__form__content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .support__form {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+    order: 2;
+  }
+  /* SUPPORT FORM FORM */
+
+  /* GOOGLE PARTNER SECTION */
+  /* GOOGLE PARTNER CONTENT */
+  .googlepartner__content {
+    position: relative;
+    max-width: calc(100% - 0px);
+    min-width: calc(100% - 0px);
+    padding: 0;
+  }
+  /* GOOGLE PARTNER CONTENT */
+  /* GOOGLE PARTNER SECTION */
+
+  .wsf__nav {
+    width: calc(100% - 0px);
+    padding: 0px;
+  }
+  .wsf__nav__list li {
+    width: calc(50% - 25px);
+    font-size: 14px;
+    padding: 10px;
+  }
+  .content__container__wsf {
+    margin-left: 0;
+    width: calc(100% - 40px);
+  }
+}
+
+@media only screen and (max-width: 371px) {
+  /* SUPPORT HEADER SECTION  */
+  /* SUPPORT HEADER HERO */
+  .support__header__hero__mv {
+    position: relative;
+    margin-top: 50px;
+    width: 230px;
+  }
+  /* SUPPORT HEADER HERO */
+  /* SUPPORT HEADER SECTION  */
+}
+
+@media only screen and (max-width: 340px) {
+  .wsf__nav__list li {
+    width: calc(100% - 20px);
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 7px;
+  }
+  .wsf__nav__list .li--mr {
+    margin-right: 0px;
+  }
+}

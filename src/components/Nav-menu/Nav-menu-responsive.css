@@ -1,0 +1,191 @@
+/* MEDIA QUERRIES */
+@media only screen and (max-width: 1440px) {
+  /* NAVIGATION HEADER */
+  /* MENU BRAND LOGO */
+  .navigation__menu__header .brand__icon img {
+    position: relative;
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+  }
+  /* MENU BRAND LOGO */
+  /* NAVIGATION HEADER */
+  .navigation__menu .main__menu li a {
+    font-size: 30px;
+  }
+  .navigation__contianer {
+    width: calc(100% - 16%);
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .navi__menu__icon,
+  .navi__menu__icon__c {
+    position: relative;
+    right: 0;
+    width: calc(8% - 40px);
+    height: 85px;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  .navigation__menu__header .brand__icon img {
+    width: 150px;
+  }
+  .navigation__menu .main__menu li {
+    margin-bottom: 10px;
+  }
+  .navigation__menu .main__menu li a {
+    font-size: 35px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon__hovered__home,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__aboutus,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__services,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__products,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__trainings,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__google__products {
+    top: -6px;
+  }
+  .navigation__menu .main__menu li .sub__menu__list li a {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilroy_extrabold;
+    font-size: 17px;
+    color: #707070;
+  }
+  .hovered__thumbnail__img .hovered__header h1::after {
+    left: -100px;
+    width: 210px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon {
+    top: -7px;
+  }
+  .navigation__contianer {
+    width: calc(100% - 16%);
+    margin: 0 8%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .navigation__menu .main__menu li a {
+    font-size: 30px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon__hovered__home,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__aboutus,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__services,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__products,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__trainings,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__google__products {
+    font-size: 13px;
+    top: -5px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon {
+    position: relative;
+    top: -6px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navi__info__container {
+    display: none;
+  }
+  .navigation__menu {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navi__menu__icon,
+  .navi__menu__icon__c {
+    width: calc(8% - 20px);
+    padding: 0 10px;
+  }
+
+  .navigation__menu__header .brand__icon {
+    position: relative;
+    margin: 20px 0 5px;
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav .brand__icon img {
+    width: 80%;
+  }
+  .navi__menu__icon,
+  .navi__menu__icon__c {
+    width: 40px;
+    height: 60px;
+    padding: 0 10px;
+  }
+  nav .brand__icon {
+    position: relative;
+    margin: 15px 0 5px;
+    left: -5px;
+  }
+  .navi__menu__icon .line__menu__bar__c {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: -40%;
+  }
+
+  .navigation__menu__header .brand__icon img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navigation__menu__header .brand__icon {
+    left: 20px;
+  }
+  nav .brand__icon img {
+    width: 100% !important;
+  }
+  nav .brand__icon {
+    position: relative;
+    margin: 15px 0 5px;
+    left: 15px;
+  }
+  .navigation__menu .main__menu li a {
+    font-size: 25px;
+  }
+  .navigation__menu .main__menu li {
+    margin-bottom: 7px;
+  }
+  .navigation__menu .others__menu {
+    margin: 40px 0 0 0;
+  }
+  .navigation__menu .others__menu li {
+    width: 40%;
+  }
+  .navigation__menu .main__menu li .sub__menu__list li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navigation__menu .main__menu li a {
+    font-size: 20px;
+  }
+  .navigation__menu .others__menu li a {
+    font-size: 14px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon__hovered__home,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__aboutus,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__services,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__products,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__trainings,
+  .navigation__menu .main__menu li a .submenu__icon__hovered__google__products {
+    font-size: 12px;
+    top: -3px;
+  }
+  .navigation__menu .main__menu li a .submenu__icon {
+    position: relative;
+    top: -3px;
+    font-size: 11px;
+  }
+}
